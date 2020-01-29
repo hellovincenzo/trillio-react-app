@@ -10,7 +10,11 @@
 @import './abstract/variables';
 
 // COMPONENTS
+@import './components/container';
+@import './components/main';
 
 // LAYOUT
+@import './layout/header';
+@import './layout/nav';
 
 // PAGES
