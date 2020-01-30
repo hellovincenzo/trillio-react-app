@@ -2,7 +2,7 @@ import React from 'react';
 
 // COMPONENTS
 import Header from '../Header/Header';
-import Nav from '../Nav/Nav';
+import Sidebar from '../Sidebar/Sidebar';
 import Container from '../Container/Container';
 import Main from '../Main/Main';
 
@@ -10,7 +10,7 @@ const App = () => (
   <Container className="container">
     <Header />
     <Container className="content">
-      <Nav className="sidebar" />
+      <Sidebar />
       <Main />
     </Container>
   </Container>
