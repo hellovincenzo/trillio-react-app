@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 import SvgIcon from '../SgvIcon/SvgIcon';
 import Button from '../Button/Button';
 
-const NavItem = ({ navIcon, textLink }) => (
-  <li className="side-nav__item">
+const NavItem = ({ navIcon, textLink, active }) => (
+  <li className={`side-nav__item ${active && 'side-nav__item--active'}`}>
     <Button className="side-nav__link">
-      <SvgIcon icon={navIcon} />
+      <SvgIcon className="side-nav__icon" icon={navIcon} />
       <span>{textLink}</span>
     </Button>
   </li>
@@ -16,12 +16,14 @@ const NavItem = ({ navIcon, textLink }) => (
 
 NavItem.defaultProps = {
   navIcon: '',
-  textLink: ''
+  textLink: '',
+  active: false
 };
 
 NavItem.propTypes = {
   navIcon: PropTypes.string,
-  textLink: PropTypes.string
+  textLink: PropTypes.string,
+  active: PropTypes.bool
 };
 
 export { NavItem as default };

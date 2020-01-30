@@ -7,17 +7,22 @@ import Container from '../Container/Container';
 
 const Sidebar = () => {
   const navItems = [
-    { navIcon: 'home', textLink: 'Hotel' },
-    { navIcon: 'air-craft-take-off', textLink: 'Flight' },
-    { navIcon: 'key', textLink: 'Car rental' },
-    { navIcon: 'map', textLink: 'Tours' }
+    { navIcon: 'home', textLink: 'Hotel', active: true },
+    { navIcon: 'aircraft-take-off', textLink: 'Flight', active: false },
+    { navIcon: 'key', textLink: 'Car rental', active: false },
+    { navIcon: 'map', textLink: 'Tours', active: false }
   ];
 
   return (
     <Nav className="sidebar">
       <Container tag="ul" className="side-nav">
         {navItems.map(navItem => (
-          <NavItem navIcon={navItem.navIcon} textLink={navItem.textLink} />
+          <NavItem
+            key={navItem.navIcon}
+            navIcon={navItem.navIcon}
+            textLink={navItem.textLink}
+            active={navItem.active}
+          />
         ))}
       </Container>
       <Container className="legal">
