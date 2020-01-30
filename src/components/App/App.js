@@ -10,7 +10,7 @@ const App = () => (
   <Container className="container">
     <Header />
     <Container className="content">
-      <Nav />
+      <Nav className="sidebar" />
       <Main />
     </Container>
   </Container>
