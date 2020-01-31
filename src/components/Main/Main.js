@@ -1,10 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Main = ({ children }) => <main className="hotel-view">{children}</main>;
+// COMPONENTS
+import Gallery from '../Gallery/Gallery';
 
-Main.propTypes = {
-  children: PropTypes.node.isRequired
-};
+const Main = () => (
+  <main className="hotel-view">
+    <Gallery />
+  </main>
+);
 
 export { Main as default };
