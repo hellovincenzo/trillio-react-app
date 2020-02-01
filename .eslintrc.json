@@ -5,7 +5,7 @@
     },
     "globals": {
         "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "SharedArrayBuffer": "readonly",
     },
     "parserOptions": {
         "ecmaFeatures": {
@@ -22,6 +22,6 @@
         }],
         "react/jsx-props-no-spreading": "off",
         "jsx-a11y/no-static-element-interactions": "off",
-        "arrow-body-style": ["error", "as-needed"]
+        "arrow-body-style": ["error", "as-needed"],
     }
 }

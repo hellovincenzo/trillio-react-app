@@ -4,3 +4,7 @@
   padding: 2.5rem;
   color: var(--color-grey-light04)
 }
+
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
