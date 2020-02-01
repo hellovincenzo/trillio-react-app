@@ -74,6 +74,7 @@
 
     @include responsive(small-phone) {
       flex-direction: column;
+      padding: 1.2rem
     }
 
     &:hover {
