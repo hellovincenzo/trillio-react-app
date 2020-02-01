@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/trillio-react-app/static/css/main.770b008c.chunk.css",
+    "main.js": "/trillio-react-app/static/js/main.2ab83619.chunk.js",
+    "main.js.map": "/trillio-react-app/static/js/main.2ab83619.chunk.js.map",
+    "runtime-main.js": "/trillio-react-app/static/js/runtime-main.a8924c36.js",
+    "runtime-main.js.map": "/trillio-react-app/static/js/runtime-main.a8924c36.js.map",
+    "static/js/2.edd5e118.chunk.js": "/trillio-react-app/static/js/2.edd5e118.chunk.js",
+    "static/js/2.edd5e118.chunk.js.map": "/trillio-react-app/static/js/2.edd5e118.chunk.js.map",
+    "index.html": "/trillio-react-app/index.html",
+    "precache-manifest.41a473e51ca8dba71aba63aafb876230.js": "/trillio-react-app/precache-manifest.41a473e51ca8dba71aba63aafb876230.js",
+    "service-worker.js": "/trillio-react-app/service-worker.js",
+    "static/css/main.770b008c.chunk.css.map": "/trillio-react-app/static/css/main.770b008c.chunk.css.map",
+    "static/js/2.edd5e118.chunk.js.LICENSE": "/trillio-react-app/static/js/2.edd5e118.chunk.js.LICENSE",
+    "static/media/aircraft-take-off.svg": "/trillio-react-app/static/media/aircraft-take-off.1c7c557e.svg",
+    "static/media/bookmark.svg": "/trillio-react-app/static/media/bookmark.f20a50bb.svg",
+    "static/media/chat.svg": "/trillio-react-app/static/media/chat.7e246b49.svg",
+    "static/media/chevron-thin-right.svg": "/trillio-react-app/static/media/chevron-thin-right.c7fedfa0.svg",
+    "static/media/home.svg": "/trillio-react-app/static/media/home.c5057c54.svg",
+    "static/media/hotel-1.jpg": "/trillio-react-app/static/media/hotel-1.5a550a3d.jpg",
+    "static/media/hotel-2.jpg": "/trillio-react-app/static/media/hotel-2.5468a3b1.jpg",
+    "static/media/hotel-3.jpg": "/trillio-react-app/static/media/hotel-3.7af5efbc.jpg",
+    "static/media/key.svg": "/trillio-react-app/static/media/key.d7d0212d.svg",
+    "static/media/location-pin.svg": "/trillio-react-app/static/media/location-pin.a68266a3.svg",
+    "static/media/magnifying-glass.svg": "/trillio-react-app/static/media/magnifying-glass.f9737d3e.svg",
+    "static/media/map.svg": "/trillio-react-app/static/media/map.df9b239d.svg",
+    "static/media/sprite.svg": "/trillio-react-app/static/media/sprite.9c587a50.svg",
+    "static/media/star.svg": "/trillio-react-app/static/media/star.7d0871a2.svg",
+    "static/media/text.txt": "/trillio-react-app/static/media/text.757b8199.txt",
+    "static/media/user.jpg": "/trillio-react-app/static/media/user.a2a26d79.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8924c36.js",
+    "static/js/2.edd5e118.chunk.js",
+    "static/css/main.770b008c.chunk.css",
+    "static/js/main.2ab83619.chunk.js"
+  ]
+}
