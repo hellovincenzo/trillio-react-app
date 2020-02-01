@@ -35,6 +35,11 @@
   }
 
   &__user {
+    @include responsive(small-phone) {
+      display: flex;
+      flex-direction: column;
+    }
+
     &-photo {
       height: 3.75rem;
       border-radius: 50%;

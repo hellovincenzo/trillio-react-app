@@ -6,6 +6,11 @@
   margin-bottom: 3.5rem;
   overflow: hidden;
 
+  @include responsive(bp-medium) {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
   &__text {
     margin-bottom: 2rem;
     position: relative;

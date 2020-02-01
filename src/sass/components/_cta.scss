@@ -2,6 +2,10 @@
   padding: 3.5rem 0;
   text-align: center;
 
+  @include responsive(bp-medium) {
+    padding: 2.5rem 0;
+  }
+
   &__book-now {
     font-size: 2rem;
     font-weight: 300;

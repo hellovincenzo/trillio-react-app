@@ -3,12 +3,28 @@
   list-style: none;
   margin-bottom: 3.5rem;
 
+  @include responsive(bp-medium) {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
+    @include responsive(bp-medium) {
+      flex: 1;
+    }
+
+
     &:not(:last-child) {
       margin-bottom: .5rem;
+
+      @include responsive(bp-medium) {
+        margin-bottom: 0;
+      }
     }
+
+
 
     &::before {
       content: '';
@@ -52,6 +68,14 @@
     z-index: 1;
     position: relative;
 
+    @include responsive(bp-medium) {
+      padding: 2rem;
+    }
+
+    @include responsive(small-phone) {
+      flex-direction: column;
+    }
+
     &:hover {
       cursor: pointer;
     }
@@ -62,5 +86,9 @@
     width: 1.75rem;
     margin-right: 2rem;
     fill: currentColor;
+
+    @include responsive(small-phone) {
+      margin-right: 0;
+    }
   }
 }

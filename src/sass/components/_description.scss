@@ -4,15 +4,32 @@
   padding: 4.5rem;
   background-color: var(--color-grey-light01);
   border-bottom: .1rem solid var(--color-grey-light02);
+
+  @include responsive(bp-medium) {
+    padding: 3rem;
+  }
+
+  @include responsive(phone) {
+    flex-direction: column;
+  }
 }
 
 .description {
-
   flex: 0 0 60%;
   margin-right: 4.5rem;
   background-color: #FFF;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
   padding: 3rem;
+
+  @include responsive(bp-medium) {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+
+  @include responsive(phone) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .list {
@@ -52,6 +69,7 @@
   &__count {}
 
   &__friends {
+    display: flex;
     margin-left: auto;
   }
 
@@ -66,7 +84,7 @@
     box-sizing: content-box;
 
     &:not(:last-child) {
-      margin-right: -1.5rem;
+      margin-right: -2rem;
     }
   }
 }
