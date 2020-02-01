@@ -4,12 +4,14 @@ import React from 'react';
 import Gallery from '../Gallery/Gallery';
 import Overview from '../Overview/Overview';
 import Detail from '../Detail/Detail';
+import UserReview from '../UserReview/UserReview';
 
 const Main = () => (
   <main className="hotel-view">
     <Gallery />
     <Overview />
     <Detail />
+    <UserReview />
   </main>
 );
 
