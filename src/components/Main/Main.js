@@ -11,7 +11,6 @@ const Main = () => (
     <Gallery />
     <Overview />
     <Detail />
-    <UserReview />
   </main>
 );
 

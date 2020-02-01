@@ -9,9 +9,18 @@
   cursor: pointer;
   transition: all .2s;
 
+  & span {
+    margin-left: .3rem;
+    transition: margin-left .2s;
+  }
+
   &:hover {
     color: var(--color-grey-dark01);
     animation: pulsate 1s infinite;
+
+    & span {
+      margin-left: .8rem;
+    }
   }
 
   &:focus {

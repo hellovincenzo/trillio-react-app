@@ -1,28 +1,36 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // COMPONENTS
 import Container from '../Container/Container';
 import Picture from '../Picture/Picture';
 
-const Review = () => (
+const Review = ({ text, photo, name, date, rating }) => (
   <Container tag="figure" className="review">
     <Container tag="blockquote" className="review__text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque
-      architecto dicta animi, totam, itaque officia ex.
+      {text}
     </Container>
     <Container tag="figcaption" className="review__user">
-      <Picture imageName="user-1.jpg" alt="User 1" className="review__photo" />
+      <Picture imageName={photo} alt="User 1" className="review__photo" />
       <Container className="review__user-box">
         <Container tag="p" className="review__user-name">
-          Nick Smith
+          {name}
         </Container>
         <Container tag="p" className="review__user-date">
-          Feb 23rd, 2017
+          {date}
         </Container>
       </Container>
-      <Container className="review__rating">7.8</Container>
+      <Container className="review__rating">{rating}</Container>
     </Container>
   </Container>
 );
+
+Review.propTypes = {
+  text: PropTypes.string.isRequired,
+  photo: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  rating: PropTypes.string.isRequired
+};
 
 export { Review as default };
