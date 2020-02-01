@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/trillio-react-app/precache-manifest.41a473e51ca8dba71aba63aafb876230.js"
+  "/trillio-react-app/precache-manifest.7975b6ed4290e44d172db98cf0138cf1.js"
 );
 
 self.addEventListener('message', (event) => {

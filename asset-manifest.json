@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/trillio-react-app/static/css/main.770b008c.chunk.css",
-    "main.js": "/trillio-react-app/static/js/main.2ab83619.chunk.js",
-    "main.js.map": "/trillio-react-app/static/js/main.2ab83619.chunk.js.map",
+    "main.js": "/trillio-react-app/static/js/main.f253fb01.chunk.js",
+    "main.js.map": "/trillio-react-app/static/js/main.f253fb01.chunk.js.map",
     "runtime-main.js": "/trillio-react-app/static/js/runtime-main.a8924c36.js",
     "runtime-main.js.map": "/trillio-react-app/static/js/runtime-main.a8924c36.js.map",
     "static/js/2.edd5e118.chunk.js": "/trillio-react-app/static/js/2.edd5e118.chunk.js",
     "static/js/2.edd5e118.chunk.js.map": "/trillio-react-app/static/js/2.edd5e118.chunk.js.map",
     "index.html": "/trillio-react-app/index.html",
-    "precache-manifest.41a473e51ca8dba71aba63aafb876230.js": "/trillio-react-app/precache-manifest.41a473e51ca8dba71aba63aafb876230.js",
+    "precache-manifest.7975b6ed4290e44d172db98cf0138cf1.js": "/trillio-react-app/precache-manifest.7975b6ed4290e44d172db98cf0138cf1.js",
     "service-worker.js": "/trillio-react-app/service-worker.js",
     "static/css/main.770b008c.chunk.css.map": "/trillio-react-app/static/css/main.770b008c.chunk.css.map",
     "static/js/2.edd5e118.chunk.js.LICENSE": "/trillio-react-app/static/js/2.edd5e118.chunk.js.LICENSE",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.a8924c36.js",
     "static/js/2.edd5e118.chunk.js",
     "static/css/main.770b008c.chunk.css",
-    "static/js/main.2ab83619.chunk.js"
+    "static/js/main.f253fb01.chunk.js"
   ]
 }
